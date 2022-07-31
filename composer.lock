@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e1524733dfb4c41c75a970f64415b7ce",
+    "content-hash": "281cfd553903a25ee04e23582378b2a1",
     "packages": [
         {
             "name": "doctrine/inflector",
@@ -490,7 +490,7 @@
         },
         {
             "name": "librevlad/csv",
-            "version": "dev-master",
+            "version": "0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/librevlad/csv.git",
@@ -506,7 +506,6 @@
                 "phpunit/phpunit": "8.*",
                 "squizlabs/php_codesniffer": "^3.5"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "files": [
@@ -529,7 +528,7 @@
             "description": "A single function to read CSV files",
             "support": {
                 "issues": "https://github.com/librevlad/csv/issues",
-                "source": "https://github.com/librevlad/csv/tree/master"
+                "source": "https://github.com/librevlad/csv/tree/0.1"
             },
             "time": "2020-03-01T12:59:14+00:00"
         },
@@ -2912,9 +2911,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "librevlad/csv": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
